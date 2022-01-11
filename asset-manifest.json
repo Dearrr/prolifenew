@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/prolifenew/static/css/main.7be75982.chunk.css",
-    "main.js": "/prolifenew/static/js/main.e6ab97f4.chunk.js",
-    "main.js.map": "/prolifenew/static/js/main.e6ab97f4.chunk.js.map",
+    "main.css": "/prolifenew/static/css/main.07034210.chunk.css",
+    "main.js": "/prolifenew/static/js/main.fefd23d0.chunk.js",
+    "main.js.map": "/prolifenew/static/js/main.fefd23d0.chunk.js.map",
     "runtime-main.js": "/prolifenew/static/js/runtime-main.36a524bb.js",
     "runtime-main.js.map": "/prolifenew/static/js/runtime-main.36a524bb.js.map",
     "static/css/2.7eb11a12.chunk.css": "/prolifenew/static/css/2.7eb11a12.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.9d1f47bd.chunk.js.map": "/prolifenew/static/js/3.9d1f47bd.chunk.js.map",
     "index.html": "/prolifenew/index.html",
     "static/css/2.7eb11a12.chunk.css.map": "/prolifenew/static/css/2.7eb11a12.chunk.css.map",
-    "static/css/main.7be75982.chunk.css.map": "/prolifenew/static/css/main.7be75982.chunk.css.map",
+    "static/css/main.07034210.chunk.css.map": "/prolifenew/static/css/main.07034210.chunk.css.map",
     "static/js/2.b57f9218.chunk.js.LICENSE.txt": "/prolifenew/static/js/2.b57f9218.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/prolifenew/static/media/logo.6ce24c58.svg",
     "static/media/video.1b4dff25.mp4": "/prolifenew/static/media/video.1b4dff25.mp4"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.36a524bb.js",
     "static/css/2.7eb11a12.chunk.css",
     "static/js/2.b57f9218.chunk.js",
-    "static/css/main.7be75982.chunk.css",
-    "static/js/main.e6ab97f4.chunk.js"
+    "static/css/main.07034210.chunk.css",
+    "static/js/main.fefd23d0.chunk.js"
   ]
 }
