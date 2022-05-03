@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/prolifenew/static/css/main.07034210.chunk.css",
-    "main.js": "/prolifenew/static/js/main.d3861b69.chunk.js",
-    "main.js.map": "/prolifenew/static/js/main.d3861b69.chunk.js.map",
-    "runtime-main.js": "/prolifenew/static/js/runtime-main.160503cd.js",
-    "runtime-main.js.map": "/prolifenew/static/js/runtime-main.160503cd.js.map",
+    "main.js": "/prolifenew/static/js/main.4d1d46bf.chunk.js",
+    "main.js.map": "/prolifenew/static/js/main.4d1d46bf.chunk.js.map",
+    "runtime-main.js": "/prolifenew/static/js/runtime-main.402add45.js",
+    "runtime-main.js.map": "/prolifenew/static/js/runtime-main.402add45.js.map",
     "static/css/2.7eb11a12.chunk.css": "/prolifenew/static/css/2.7eb11a12.chunk.css",
-    "static/js/2.cfdc8c47.chunk.js": "/prolifenew/static/js/2.cfdc8c47.chunk.js",
-    "static/js/2.cfdc8c47.chunk.js.map": "/prolifenew/static/js/2.cfdc8c47.chunk.js.map",
-    "static/js/3.df0293d1.chunk.js": "/prolifenew/static/js/3.df0293d1.chunk.js",
-    "static/js/3.df0293d1.chunk.js.map": "/prolifenew/static/js/3.df0293d1.chunk.js.map",
+    "static/js/2.5a3d3bd6.chunk.js": "/prolifenew/static/js/2.5a3d3bd6.chunk.js",
+    "static/js/2.5a3d3bd6.chunk.js.map": "/prolifenew/static/js/2.5a3d3bd6.chunk.js.map",
+    "static/js/3.e7379e9f.chunk.js": "/prolifenew/static/js/3.e7379e9f.chunk.js",
+    "static/js/3.e7379e9f.chunk.js.map": "/prolifenew/static/js/3.e7379e9f.chunk.js.map",
     "index.html": "/prolifenew/index.html",
     "static/css/2.7eb11a12.chunk.css.map": "/prolifenew/static/css/2.7eb11a12.chunk.css.map",
     "static/css/main.07034210.chunk.css.map": "/prolifenew/static/css/main.07034210.chunk.css.map",
-    "static/js/2.cfdc8c47.chunk.js.LICENSE.txt": "/prolifenew/static/js/2.cfdc8c47.chunk.js.LICENSE.txt",
+    "static/js/2.5a3d3bd6.chunk.js.LICENSE.txt": "/prolifenew/static/js/2.5a3d3bd6.chunk.js.LICENSE.txt",
     "static/media/1.7cd4a182.png": "/prolifenew/static/media/1.7cd4a182.png",
+    "static/media/4.png": "/prolifenew/static/media/4.4fb7f193.png",
+    "static/media/Logo.bd152cfe.jpg": "/prolifenew/static/media/Logo.bd152cfe.jpg",
     "static/media/TWS100k.png": "/prolifenew/static/media/TWS100k.7cd4a182.png",
     "static/media/TWS148k.png": "/prolifenew/static/media/TWS148k.86773d97.png",
     "static/media/TWS375k.png": "/prolifenew/static/media/TWS375k.70669c08.png",
@@ -22,10 +24,10 @@
     "static/media/video.1b4dff25.mp4": "/prolifenew/static/media/video.1b4dff25.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.160503cd.js",
+    "static/js/runtime-main.402add45.js",
     "static/css/2.7eb11a12.chunk.css",
-    "static/js/2.cfdc8c47.chunk.js",
+    "static/js/2.5a3d3bd6.chunk.js",
     "static/css/main.07034210.chunk.css",
-    "static/js/main.d3861b69.chunk.js"
+    "static/js/main.4d1d46bf.chunk.js"
   ]
 }
