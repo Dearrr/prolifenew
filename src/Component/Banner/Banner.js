@@ -9,8 +9,8 @@ const Banner = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </BannerBg>
             <BannerContent>
-                <BannerTitle>Welcome</BannerTitle>
-                <BannerDesciption>To Our Website</BannerDesciption>
+                <BannerTitle>Prolife Company</BannerTitle>
+                <BannerDesciption>Welcome To Our Website</BannerDesciption>
             </BannerContent>
         </BannerContainer>
     )

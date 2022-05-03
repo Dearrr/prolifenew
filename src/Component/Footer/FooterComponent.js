@@ -30,7 +30,7 @@ export const FooterLinkWrapper = styled.div`
     display: flex;
     
     @media screen and (max-width:820px){
-        flex-direction: column;
+        flex-direction: row;
     }
 `
 
@@ -46,21 +46,46 @@ export const LeftFooter = styled.div`
 export const RightFooter = styled.div`
     
 `
+
+export const FooterTitle = styled.div`
+    font-size: 1.6rem;
+    color:#fff;
+`
+export const FooterDescription = styled.div`
+    padding: 5px;
+    font-size:1.1rem;
+    color:#fff;
+`
 export const FooterLinkItem = styled.div`
     display: flex;
-    flex-direction: column;
-    align:  flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    //align:  flex-start;
     margin:16px;
     text-align:  left;
     width:auto;
     box-sizing: border-box;
     color:#fff;
+    cursor: pointer;
 
     @media screen and (max-width:420px){
         margin:0;
         padding:10px;
         width:1000%;
     }
+
+    &:hover{
+       
+        color: var(--main-color);
+    }
+`
+export const FooterLinkIcon = styled.div`
+    
+`
+
+export const FooterLinkDescripstion = styled.div`
+    margin-left: 5px;
 `
 export const FooterLinkTitle = styled.h1`
     font-size:16px;
@@ -73,7 +98,7 @@ export const FooterLink = styled(Link)`
     font-size:14px;
 
     &:hover{
-        color: #01bf71;
+        color: var(--main-color);
         transition: 0.3s ease-out;
     }
 `

@@ -28,27 +28,28 @@ export const ButtonLeft = styled.button`
     }
 `
 export const CategoriesCard = styled.div`
-    background: white;
+    background: #fff;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border:1px solid grey;
+    /* border:1px solid grey; */
     border-radius: 5px;
     max-height: 340px;
     padding:30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0px 5px 33px 0px rgb(82 156 219 / 17%);;
     transition: all 0.2 ease-in-out;
 
     &:hover{
         transition: scale(1.02);
         transition:  all 0.2s ease-in-out;
-        border:1px solid #01bf71;
-        
-        cursor:pointer;
+        border:1px solid #189AB4;/* #01bf71 */
     }
 
-    
+    @media screen and (max-width: 768px){
+        max-height: 240px;
+    }
+
 `
 
 export const LeftCategoriesCard = styled.div`
@@ -61,7 +62,7 @@ export const CardWrapper = styled.div`
     display: flex;
     flex-direction: column;
 `
-export const ServiceIcon = styled.img`
+export const CategoriesIcon = styled.img`
     height: 50%;
     width:50%;
     margin-bottom: 10px;
@@ -73,6 +74,13 @@ export const ServiceIcon = styled.img`
         //transform: scale(1.5)
         
     }
+
+    @media screen and (max-width: 768px){
+        height: 40%;
+        width:40%;
+    }
+
+    
 `
 
 export const ServiceH1 = styled.div`
@@ -95,7 +103,7 @@ export const ServiceP = styled.div`
     &:hover{
         transition: scale(1.02);
         transition:  all 0.2s ease-in-out;
-        color:#01bf71;
+        color:#189AB4;
         transform: scale(1.1);
         cursor:pointer;
     }

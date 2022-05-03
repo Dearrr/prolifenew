@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
+:root{
+  --main-font-color:#253237;
+  --main-color:#75E6DA;
+  --main-border-color:#189AB4;
+  --main-shadow:0px 5px 33px 0px rgb(82 156 219 / 17%);
+}
+
 *{
   font-family: 'Kanit', sans-serif !important;
   --swiper-theme-color: grey;
+  
 }
+body {background-color: coral;}
 
 .title{
   font-size: 30;
 }
+
+
 
 

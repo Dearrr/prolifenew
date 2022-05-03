@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled,{keyframes} from 'styled-components'
 
 export const BannerContainer = styled.div`
     background: #0c0c0c;
@@ -36,12 +36,20 @@ export const BannerContent = styled.div`
     flex-direction: column;
     align-items: center;
 `
+export const animate = keyframes`
+    0%{opacity: 0;
+    transform: translate3d(0,100%,0)}
+    100%{opacity: 1;
+    transform: none;}
+`
 
 export const BannerTitle = styled.div`
-    color: #fff;
+    color: var( --main-font-color);
     font-size: 48px;
     text-align: center;
-
+    animation: ${animate} 2s 0s ;
+ 
+    
     @media screen and (max-width: 768px){
         font-size: 40px;
     }
@@ -51,12 +59,14 @@ export const BannerTitle = styled.div`
     }
 `
 
+
 export const BannerDesciption = styled.div`
     margin-top: 24px;
-    color: #fff;
+    color: var( --main-font-color);
     font-size: 24px;
     text-align: center;
     max-width: 600px;
+    animation: ${animate} 2s 0s ;
 
     @media screen and (max-width: 768px){
         font-size: 24px;

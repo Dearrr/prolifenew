@@ -51,27 +51,35 @@ export const ProductCard = styled.div`
     border-radius: 5px;
     max-height: 340px;
     padding:30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    box-shadow: var(--main-shadow);
     transition: all 0.2 ease-in-out;
 
     &:hover{
         transition: scale(1.02);
         transition:  all 0.2s ease-in-out;
-        border:1px solid #01bf71;
+        border:1px solid var(--main-border-color);
         cursor:pointer;
     }
 `
 
 export const ServiceIcon = styled.img`
-    height: 160px;
-    width:160px;
+    height: 100%;
+    width:100%;
     margin-bottom: 10px;
+    transition: all 0.2 ease-in-out;
+    &:hover{
+        transition: scale(1.9);
+        transition:  all 0.2s ease-in-out;
+        
+       
+    }
 `
 
 export const ServiceH1 = styled.div`
     font-size: 2.5rem;
     color: #fff;
     margin-bottom:64px;
+    
 `
 
 export const ServiceH2 = styled.div`

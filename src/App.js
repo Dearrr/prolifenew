@@ -7,12 +7,14 @@ import { Container } from 'react-bootstrap';
 import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import Index from './Pages/index'
 
+
 function App() {
   return (
       <>
-      <Router>
+      
+      <Router basename={window.location.pathname || ''}>
         <Switch>
-          <Route path="/" component={Index} exact></Route>
+          <Route path="/" exact component={Index} ></Route>
           
         </Switch>
        
@@ -23,3 +25,4 @@ function App() {
 }
 
 export default App;
+

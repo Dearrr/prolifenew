@@ -4,6 +4,7 @@ import { animateScroll as scroll } from 'react-scroll';
 
 import './Header.css';
 import { Nav,NavbarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks} from './HeaderElement';
+import Product from '../Product/Product';
 
 const Header = ({toggle}) => {
   const toggleHome = () =>{
@@ -12,8 +13,14 @@ const Header = ({toggle}) => {
     return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to='/' onClick={toggleHome}>
-          MyWebsite
+        <NavLogo to='/' onClick={toggleHome} 
+        smooth={true} 
+        duration={10000} 
+        spy={true}
+        exact="true" 
+        offset={-80}
+        activeClass='active'>
+          ProLife
         </NavLogo>
         <MobileIcon onClick={toggle}>
           <FaBars/>
@@ -21,6 +28,7 @@ const Header = ({toggle}) => {
           <NavMenu>
             <NavItem>
               <NavLinks to="about"
+                
                 smooth={true} 
                 duration={500} 
                 spy={true}
@@ -33,6 +41,7 @@ const Header = ({toggle}) => {
             </NavItem>
             <NavItem>
               <NavLinks to="product"
+                
                 smooth={true} 
                 duration={500} 
                 spy={true}
@@ -45,8 +54,8 @@ const Header = ({toggle}) => {
             </NavItem>
             <NavItem>
               <NavLinks 
+                
                 to="categories"
-                to="product"
                 smooth={true} duration={500} spy={true}
                 exact="true" offset={-80}
                 activeClass='active'
@@ -54,18 +63,7 @@ const Header = ({toggle}) => {
                 Categories
                 </NavLinks>
             </NavItem>
-            <NavItem>
-              <NavLinks to="about"
-                smooth={true} 
-                duration={500} 
-                spy={true}
-                exact="true" 
-                offset={-80}
-                activeClass='active'
-              >
-                Contact Us
-                </NavLinks>
-            </NavItem>
+            
           </NavMenu>
         
       </NavbarContainer>

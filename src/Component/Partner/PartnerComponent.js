@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const PartnerWrapper = styled.div`
+    background: #fff;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -12,6 +13,7 @@ export const PartnerWrapper = styled.div`
 
 export const PartnerIcon = styled.img`
     opacity: 0.5;
+    
 
     &:hover{
         opacity: 1;

@@ -1,40 +1,48 @@
+
 export default{
     product:[
         {
             id:1,
-            title : "Product1",
+            img:require('../asset/image/TWS100k.png'),
+            title : "Water Tank 100,000L",
             price: '$100'
         },
         {
             id:2,
-            title : "Product2",
+            img:require('../asset/image/TWS148k.png'),
+            title : "Water Tank 148,000L",
             price: "$200"
         },
         {
             id:3,
-            title : "Product3",
+            img:require('../asset/image/TWS375k.png'),
+            title : "Water Tank 375,000L",
             price : "$300"
         },
         {
             id:4,
+            img:require('../asset/image/4.png'),
             title : "Product4",
             price: "$400"
         },
-        {
+        /* {
             id:5,
+            img:'',
             title : "Product5",
             price: "$500"
         },
         {
             id:6,
+            img:'',
             title : "Product6",
             price: "$500"
         },
         {
             id:7,
+            img:'',
             title : "Product7",
             price: "$500"
-        }
+        } */
         
     ],
 
